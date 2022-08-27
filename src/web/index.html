@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="index.js"></script>
+        <script src="/eel.js"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="icon.ico">
+        <link rel="stylesheet" href="index.css">
+        <title>MailTemp</title>
+    </head>
+    <body>
+        <section id="background_color">
+            <section>
+                <header>
+                    <img src="img/Logo.png" id="logo">
+                    <p>MailTemp<span>Zenitika</span><span><span id="blue">#StandWi</span><span id="yellow">thUkraine</span></span></p>
+                </header>
+                <div class="modal" id="modal-1">
+                    <div class="modal__content">
+                        <button class="modal__close-button">X</button>
+                        <h1 class="modal__title"></h1>
+                        <p class="modal__description">
+                            <div id="data_about_message"></div>
+                            <div id="message_body"></div>
+                            <div id="files_message"></div>
+                        </p>
+                    </div>
+                </div>
+                <main>
+                    <section id="work_section">
+                        <section id="stats">
+                            <p id="activ_mail">Your mail:</p>
+                            <p id="api_conection">API connection:</p>
+                        </section>
+                        <section id="control_panel_section">
+                            <ul id="control_panel_ul">
+                                <li>
+                                    <button id="exit_btn">Exit</button></li>
+                                <li>
+                                    <button id="new_email">Generate new mail</button>
+                                </li>
+                                <li>
+                                    <button id="update_emails">Check for new emails</button>
+                                </li>
+                            </ul>
+                        </section>
+                        <section id="mail_field"></section>
+                    </section>
+                </main>
+            </section>
+            <footer>
+                <ul>
+                    <li>
+                        <a href="https://github.com/Zenitika" target="_blank">My GitHub account</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Zenitika/MailTemp" target="_blank">Repository of this application on GitHub</a>
+                    </li>
+                </ul>
+            </footer>
+        </section>
+    </body>
+</html>
